@@ -2,10 +2,10 @@ name: Wheel Tester
 on:
   push:
     branches:
-      - master
-  schedule:
+      - tbbharaj/wheels-test
+  #schedule:
     # Run nightly
-    - cron: '0 0 * * *'
+    #  - cron: '0 0 * * *'
 
 jobs:
   ubuntu_wheel_test:
