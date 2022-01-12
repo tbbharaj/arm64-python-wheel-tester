@@ -2,7 +2,7 @@ name: Wheel Tester
 on:
   push:
     branches:
-      - all
+      - tbbharaj/remove-unused-wheels
   #schedule:
     # Run nightly
   #  - cron: '0 0 * * *'
